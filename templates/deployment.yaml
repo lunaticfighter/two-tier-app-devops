@@ -38,6 +38,9 @@ spec:
           securityContext:
             {{- toYaml . | nindent 12 }}
           {{- end }}
+          envFrom:
+            - configMapRef:
+                name: {{ .Values.configMapName }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
