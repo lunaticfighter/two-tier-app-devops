@@ -75,7 +75,7 @@ volumeMounts: []
 configMapName: two-tier-cm
 
 nodeSelector: 
-  cloud.google.com/gke-nodepool: "default-pool-1"
+  cloud.google.com/gke-nodepool: "default-pool"
 
 tolerations: []
 
