@@ -1,7 +1,7 @@
 replicaCount: 3
 
 image:
-  repository: trainwithshubham/flaskapp:
+  repository: trainwithshubham/flaskapp
   pullPolicy: IfNotPresent
   tag: "latest"
   
