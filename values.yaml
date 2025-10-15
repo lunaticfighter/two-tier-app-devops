@@ -33,14 +33,14 @@ securityContext: {}
 
 # This is for setting up a service more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/
 service:
-  enabled: true
-  type: NodePort
-  port: 5000
-  ports:
-    port: 80
-    targetPort: 5000
-    protocol: TCP
-    nodePort: 30004
+  #enabled: true
+  #type: NodePort
+  #port: 5000
+  #ports:
+  #  port: 80
+  #  targetPort: 5000
+  #  protocol: TCP
+  #  nodePort: 30004
 
 
 
