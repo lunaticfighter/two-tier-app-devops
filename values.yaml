@@ -35,12 +35,12 @@ securityContext: {}
 service:
   enabled: true
   type: NodePort
-  port: 8000
+  port: 5000
   ports:
     port: 80
-    targetPort: 8000
+    targetPort: 5000
     protocol: TCP
-    nodePort: 30007
+    nodePort: 30004
 
 
 
