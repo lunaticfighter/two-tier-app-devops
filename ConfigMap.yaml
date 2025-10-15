@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: two-tier-cm
+  namespace: default
+data:
+  MYSQL_HOST: "172.17.112.2"
+  MYSQL_USER: "root"
+  MYSQL_DB: "mydb"
+  MYSQL_PASSWORD: "JSpunit@23"
+
